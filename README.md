@@ -1,2 +1,3 @@
-# my_projects
-Repo to store codes done during my BCA
+# Repo to store codes done during my BCA
+
+# Licensed under GPLv3
