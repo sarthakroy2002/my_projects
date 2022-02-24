@@ -1,0 +1,10 @@
+#
+# Print the decimal equivalents of 1/2, 1/3, 1/4, ..., 1/n using Loop
+#
+# author: Sarthak Roy <sarthakroy2002@gmail.com>
+#
+a=int(input("Enter a number:"))
+b=0
+for i in range(2,a+1):
+    b=b+(1/a)
+print("The answer is ",b)
