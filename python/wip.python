@@ -1,0 +1,30 @@
+a=input("Enter a name:")
+l=len(a)
+i=0
+j=0
+k=0
+o=0
+e=0
+count=0
+for i in range(0,l):
+    if(a[i]==' '):
+        count+=1
+for j in range(0,l):
+    if(count==1):
+        if(a[j]==" "):
+            e=j
+            print(a[0],end=".")
+            for k in range(e+1,l):
+                print(a[k],end="")
+    if(count==2):
+        if(a[j]==" "):
+            e=j
+            print(a[0],end=".")
+            print(a[e],end=".")
+        for k in range(e+1,l):
+            print(a[k],end="")
+if(count==0):
+    for o in range(0,l):
+            print(a[o],end="")
+    
+    
